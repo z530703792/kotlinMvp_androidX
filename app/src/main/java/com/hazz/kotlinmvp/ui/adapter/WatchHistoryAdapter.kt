@@ -3,18 +3,19 @@ package com.hazz.kotlinmvp.ui.adapter
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import android.support.v4.app.ActivityCompat
-import android.support.v4.app.ActivityOptionsCompat
-import android.support.v4.content.ContextCompat
-import android.support.v4.util.Pair
+import androidx.core.app.ActivityCompat
+import androidx.core.app.ActivityOptionsCompat
+import androidx.core.content.ContextCompat
+import androidx.core.util.Pair
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.hazz.kotlinmvp.Constants
 import com.hazz.kotlinmvp.R
 import com.hazz.kotlinmvp.durationFormat
-import com.hazz.kotlinmvp.glide.GlideApp
+
 import com.hazz.kotlinmvp.mvp.model.bean.HomeBean
 import com.hazz.kotlinmvp.ui.activity.VideoDetailActivity
 import com.hazz.kotlinmvp.view.recyclerview.ViewHolder
@@ -35,7 +36,7 @@ class WatchHistoryAdapter(context: Context, dataList: ArrayList<HomeBean.Issue.I
             setText(R.id.tv_tag, "#${data.data.category} / ${durationFormat(data.data.duration)}")
             setImagePath(R.id.iv_video_small_card, object : ViewHolder.HolderImageLoader(data.data.cover.detail) {
                 override fun loadImage(iv: ImageView, path: String) {
-                    GlideApp.with(mContext)
+                    Glide.with(mContext)
                             .load(path)
                             .placeholder(R.drawable.placeholder_banner)
                             .transition(DrawableTransitionOptions().crossFade())

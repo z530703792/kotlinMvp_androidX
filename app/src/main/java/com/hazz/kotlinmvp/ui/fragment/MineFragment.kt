@@ -41,7 +41,8 @@ class MineFragment : BaseFragment(),View.OnClickListener {
         activity?.let { StatusBarUtil.setPaddingSmart(it, toolbar) }
 
         tv_view_homepage.setOnClickListener(this)
-        iv_avatar.setOnClickListener(this)
+       // iv_avatar.setOnClickListener(this)
+
         iv_about.setOnClickListener(this)
 
         tv_collection.setOnClickListener(this)

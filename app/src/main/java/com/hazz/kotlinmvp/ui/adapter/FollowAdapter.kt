@@ -2,12 +2,14 @@ package com.hazz.kotlinmvp.ui.adapter
 
 import android.app.Activity
 import android.content.Context
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
+
 import android.widget.ImageView
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.hazz.kotlinmvp.R
-import com.hazz.kotlinmvp.glide.GlideApp
+
 import com.hazz.kotlinmvp.mvp.model.bean.HomeBean
 import com.hazz.kotlinmvp.view.recyclerview.MultipleType
 import com.hazz.kotlinmvp.view.recyclerview.ViewHolder
@@ -58,7 +60,7 @@ class FollowAdapter(context: Context, dataList: ArrayList<HomeBean.Issue.Item>)
          */
         holder.setImagePath(R.id.iv_avatar, object : ViewHolder.HolderImageLoader(headerData?.icon!!) {
             override fun loadImage(iv: ImageView, path: String) {
-                GlideApp.with(mContext)
+                Glide.with(mContext)
                         .load(path)
                         .placeholder(R.mipmap.default_avatar).circleCrop()
                         .transition(DrawableTransitionOptions().crossFade())

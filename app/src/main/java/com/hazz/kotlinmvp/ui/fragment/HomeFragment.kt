@@ -3,10 +3,12 @@ package com.hazz.kotlinmvp.ui.fragment
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import android.support.v4.app.ActivityOptionsCompat
-import android.support.v7.widget.DefaultItemAnimator
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
+import androidx.core.app.ActivityOptionsCompat
+import androidx.recyclerview.widget.DefaultItemAnimator
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView.*
+
 import com.hazz.kotlinmvp.R
 import com.hazz.kotlinmvp.base.BaseFragment
 import com.hazz.kotlinmvp.mvp.contract.HomeContract
@@ -86,12 +88,14 @@ class HomeFragment : BaseFragment(), HomeContract.View {
         mRefreshLayout.setPrimaryColorsId(R.color.color_light_black, R.color.color_title_bg)
 
 
-        mRecyclerView.addOnScrollListener(object : RecyclerView.OnScrollListener() {
-            override fun onScrollStateChanged(recyclerView: RecyclerView?, newState: Int) {
-                super.onScrollStateChanged(recyclerView, newState)
-                if (newState == RecyclerView.SCROLL_STATE_IDLE) {
+        mRecyclerView.addOnScrollListener(object : OnScrollListener() {
+            override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
+                if (recyclerView != null) {
+                    super.onScrollStateChanged(recyclerView, newState)
+                }
+                if (newState == SCROLL_STATE_IDLE) {
                     val childCount = mRecyclerView.childCount
-                    val itemCount = mRecyclerView.layoutManager.itemCount
+                    val itemCount = mRecyclerView.layoutManager?.itemCount
                     val firstVisibleItem = (mRecyclerView.layoutManager as LinearLayoutManager).findFirstVisibleItemPosition()
                     if (firstVisibleItem + childCount == itemCount) {
                         if (!loadingMore) {
@@ -103,8 +107,10 @@ class HomeFragment : BaseFragment(), HomeContract.View {
             }
 
             //RecyclerView滚动的时候调用
-            override fun onScrolled(recyclerView: RecyclerView?, dx: Int, dy: Int) {
-                super.onScrolled(recyclerView, dx, dy)
+            override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
+                if (recyclerView != null) {
+                    super.onScrolled(recyclerView, dx, dy)
+                }
                 val currentVisibleItemPosition = linearLayoutManager.findFirstVisibleItemPosition()
                 if (currentVisibleItemPosition == 0) {
                     //背景设置为透明

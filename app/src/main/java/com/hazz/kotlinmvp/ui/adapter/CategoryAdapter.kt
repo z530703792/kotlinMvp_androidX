@@ -7,11 +7,12 @@ import android.graphics.Typeface
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.hazz.kotlinmvp.Constants
 import com.hazz.kotlinmvp.MyApplication
 import com.hazz.kotlinmvp.R
-import com.hazz.kotlinmvp.glide.GlideApp
+
 import com.hazz.kotlinmvp.mvp.model.bean.CategoryBean
 import com.hazz.kotlinmvp.ui.activity.CategoryDetailActivity
 import com.hazz.kotlinmvp.view.recyclerview.ViewHolder
@@ -50,7 +51,7 @@ class CategoryAdapter(mContext: Context, categoryList: ArrayList<CategoryBean>, 
 
         holder.setImagePath(R.id.iv_category, object : ViewHolder.HolderImageLoader(data.bgPicture) {
             override fun loadImage(iv: ImageView, path: String) {
-                GlideApp.with(mContext)
+                Glide.with(mContext)
                         .load(path)
                         .placeholder(R.color.color_darker_gray)
                         .transition(DrawableTransitionOptions().crossFade())

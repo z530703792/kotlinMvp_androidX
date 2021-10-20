@@ -6,11 +6,11 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import com.bumptech.glide.Glide
 import com.hazz.kotlinmvp.MyApplication
 import com.hazz.kotlinmvp.R
 import com.hazz.kotlinmvp.durationFormat
-import com.hazz.kotlinmvp.glide.GlideApp
-import com.hazz.kotlinmvp.glide.GlideRoundTransform
+
 import com.hazz.kotlinmvp.mvp.model.bean.HomeBean
 import com.hazz.kotlinmvp.view.recyclerview.MultipleType
 import com.hazz.kotlinmvp.view.recyclerview.ViewHolder
@@ -96,9 +96,8 @@ class VideoDetailAdapter(mContext: Context, data: ArrayList<HomeBean.Issue.Item>
                     setText(R.id.tv_tag, "#${data.data.category} / ${durationFormat(data.data.duration)}")
                     setImagePath(R.id.iv_video_small_card, object : ViewHolder.HolderImageLoader(data.data.cover.detail) {
                             override fun loadImage(iv: ImageView, path: String) {
-                                GlideApp.with(mContext)
+                                Glide.with(mContext)
                                         .load(path)
-                                        .optionalTransform(GlideRoundTransform())
                                         .placeholder(R.drawable.placeholder_banner)
                                         .into(iv)
                             }
@@ -135,7 +134,7 @@ class VideoDetailAdapter(mContext: Context, data: ArrayList<HomeBean.Issue.Item>
                 setImagePath(R.id.iv_avatar, object : ViewHolder.HolderImageLoader(data.data.author.icon) {
                     override fun loadImage(iv: ImageView, path: String) {
                         //加载头像
-                        GlideApp.with(mContext)
+                        Glide.with(mContext)
                                 .load(path)
                                 .placeholder(R.mipmap.default_avatar).circleCrop()
                                 .into(iv)

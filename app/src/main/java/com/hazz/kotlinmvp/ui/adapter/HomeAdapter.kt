@@ -3,17 +3,18 @@ package com.hazz.kotlinmvp.ui.adapter
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
-import android.support.v4.app.ActivityCompat
-import android.support.v4.app.ActivityOptionsCompat
-import android.support.v4.util.Pair
+import androidx.core.app.ActivityCompat
+import androidx.core.app.ActivityOptionsCompat
+import androidx.core.util.Pair
 import android.view.View
 import android.view.ViewGroup
 import cn.bingoogolapple.bgabanner.BGABanner
+import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.hazz.kotlinmvp.Constants
 import com.hazz.kotlinmvp.R
 import com.hazz.kotlinmvp.durationFormat
-import com.hazz.kotlinmvp.glide.GlideApp
+
 import com.hazz.kotlinmvp.mvp.model.bean.HomeBean
 import com.hazz.kotlinmvp.ui.activity.VideoDetailActivity
 import com.hazz.kotlinmvp.view.recyclerview.ViewHolder
@@ -105,7 +106,7 @@ class HomeAdapter(context: Context, data: ArrayList<HomeBean.Issue.Item>)
                         setAutoPlayAble(bannerFeedList.size > 1)
                         setData(bannerFeedList, bannerTitleList)
                         setAdapter { banner, _, feedImageUrl, position ->
-                            GlideApp.with(mContext)
+                            Glide.with(mContext)
                                     .load(feedImageUrl)
                                     .transition(DrawableTransitionOptions().crossFade())
                                     .placeholder(R.drawable.placeholder_banner)
@@ -179,7 +180,7 @@ class HomeAdapter(context: Context, data: ArrayList<HomeBean.Issue.Item>)
             avatar = itemData?.provider?.icon
         }
         // 加载封页图
-        GlideApp.with(mContext)
+        Glide.with(mContext)
                 .load(cover)
                 .placeholder(R.drawable.placeholder_banner)
                 .transition(DrawableTransitionOptions().crossFade())
@@ -187,14 +188,14 @@ class HomeAdapter(context: Context, data: ArrayList<HomeBean.Issue.Item>)
 
         // 如果提供者信息为空，就显示默认
         if (avatar.isNullOrEmpty()) {
-            GlideApp.with(mContext)
+            Glide.with(mContext)
                     .load(defAvatar)
                     .placeholder(R.mipmap.default_avatar).circleCrop()
                     .transition(DrawableTransitionOptions().crossFade())
                     .into(holder.getView(R.id.iv_avatar))
 
         } else {
-            GlideApp.with(mContext)
+            Glide.with(mContext)
                     .load(avatar)
                     .placeholder(R.mipmap.default_avatar).circleCrop()
                     .transition(DrawableTransitionOptions().crossFade())

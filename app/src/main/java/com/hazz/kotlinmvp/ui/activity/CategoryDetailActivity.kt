@@ -2,12 +2,14 @@ package com.hazz.kotlinmvp.ui.activity
 
 import android.annotation.SuppressLint
 import android.graphics.Color
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+
 import com.hazz.kotlinmvp.Constants
 import com.hazz.kotlinmvp.R
 import com.hazz.kotlinmvp.base.BaseActivity
-import com.hazz.kotlinmvp.glide.GlideApp
+
 import com.hazz.kotlinmvp.mvp.contract.CategoryDetailContract
 import com.hazz.kotlinmvp.mvp.model.bean.CategoryBean
 import com.hazz.kotlinmvp.mvp.model.bean.HomeBean
@@ -15,6 +17,7 @@ import com.hazz.kotlinmvp.mvp.presenter.CategoryDetailPresenter
 import com.hazz.kotlinmvp.ui.adapter.CategoryDetailAdapter
 import com.hazz.kotlinmvp.utils.StatusBarUtil
 import kotlinx.android.synthetic.main.activity_category_detail.*
+import kotlinx.android.synthetic.main.activity_profile_homepage.view.*
 
 /**
  * Created by xuhao on 2017/11/30.
@@ -53,7 +56,7 @@ class CategoryDetailActivity : BaseActivity(), CategoryDetailContract.View {
         toolbar.setNavigationOnClickListener { finish() }
 
         // 加载headerImage
-        GlideApp.with(this)
+        Glide.with(this)
                 .load(categoryData?.headerImage)
                 .placeholder(R.color.color_darker_gray)
                 .into(imageView)
@@ -68,9 +71,11 @@ class CategoryDetailActivity : BaseActivity(), CategoryDetailContract.View {
         mRecyclerView.adapter = mAdapter
         //实现自动加载
         mRecyclerView.addOnScrollListener(object : RecyclerView.OnScrollListener() {
-            override fun onScrollStateChanged(recyclerView: RecyclerView?, newState: Int) {
-                super.onScrollStateChanged(recyclerView, newState)
-                val itemCount = mRecyclerView.layoutManager.itemCount
+            override fun onScrollStateChanged(recyclerView: RecyclerView, newState: Int) {
+                if (recyclerView != null) {
+                    super.onScrollStateChanged(recyclerView, newState)
+                }
+                val itemCount = (mRecyclerView.layoutManager as LinearLayoutManager).itemCount
                 val lastVisibleItem = (mRecyclerView.layoutManager as LinearLayoutManager).findLastVisibleItemPosition()
                 if (!loadingMore && lastVisibleItem == (itemCount - 1)) {
                     loadingMore = true

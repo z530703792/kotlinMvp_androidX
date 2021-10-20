@@ -2,8 +2,9 @@ package com.hazz.kotlinmvp.ui.activity
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.support.v4.app.FragmentTransaction
+
 import android.view.KeyEvent
+import androidx.fragment.app.FragmentTransaction
 import com.flyco.tablayout.listener.CustomTabEntity
 import com.flyco.tablayout.listener.OnTabSelectListener
 import com.hazz.kotlinmvp.R
@@ -25,7 +26,7 @@ import java.util.*
 class MainActivity : BaseActivity() {
 
 
-    private val mTitles = arrayOf("每日精选", "发现", "热门", "我的")
+    private val mTitles = arrayOf("首页", "发现", "热门", "我的")
 
     // 未被选中的图标
     private val mIconUnSelectIds = intArrayOf(R.mipmap.ic_home_normal, R.mipmap.ic_discovery_normal, R.mipmap.ic_hot_normal, R.mipmap.ic_mine_normal)
