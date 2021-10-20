@@ -21,7 +21,7 @@ import com.hazz.kotlinmvp.view.recyclerview.ViewHolder
 import com.hazz.kotlinmvp.view.recyclerview.adapter.CommonAdapter
 
 /**
- * Created by xuhao on 2017/11/30.
+ * Created by zcq on 2017/11/30.
  * desc:分类详情Adapter
  */
 class CategoryDetailAdapter(context: Context, dataList: ArrayList<HomeBean.Issue.Item>, layoutId: Int)

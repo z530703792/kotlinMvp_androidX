@@ -16,7 +16,7 @@ import pub.devrel.easypermissions.EasyPermissions
 
 
 /**
- * Created by xuhao on 2017/12/5.
+ * Created by zcq on 2017/12/5.
  * desc: 启动页
  */
 

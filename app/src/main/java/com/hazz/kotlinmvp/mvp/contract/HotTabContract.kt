@@ -5,7 +5,7 @@ import com.hazz.kotlinmvp.base.IPresenter
 import com.hazz.kotlinmvp.mvp.model.bean.TabInfoBean
 
 /**
- * Created by xuhao on 2017/11/30.
+ * Created by zcq on 2017/11/30.
  * desc: 契约类
  */
 interface HotTabContract {

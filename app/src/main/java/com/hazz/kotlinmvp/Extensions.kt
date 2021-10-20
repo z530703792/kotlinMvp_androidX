@@ -7,7 +7,7 @@ import androidx.fragment.app.Fragment
 
 
 /**
- * Created by xuhao on 2017/11/14.
+ * Created by zcq on 2017/11/14.
  */
 
 fun Fragment.showToast(content: String): Toast {

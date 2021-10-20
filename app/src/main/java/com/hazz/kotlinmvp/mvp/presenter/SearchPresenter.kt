@@ -6,7 +6,7 @@ import com.hazz.kotlinmvp.mvp.model.SearchModel
 import com.hazz.kotlinmvp.net.exception.ExceptionHandle
 
 /**
- * Created by xuhao on 2017/12/4.
+ * Created by zcq on 2017/12/4.
  * desc: 搜索的 Presenter
  */
 class SearchPresenter : BasePresenter<SearchContract.View>(), SearchContract.Presenter {

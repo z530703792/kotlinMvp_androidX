@@ -15,7 +15,7 @@ import com.hazz.kotlinmvp.ui.adapter.FollowAdapter
 import kotlinx.android.synthetic.main.layout_recyclerview.*
 
 /**
- * Created by xuhao on 2017/12/7.
+ * Created by zcq on 2017/12/7.
  * desc: 关注
  */
 class FollowFragment : BaseFragment(), FollowContract.View {

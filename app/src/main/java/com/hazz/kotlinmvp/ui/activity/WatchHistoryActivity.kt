@@ -18,7 +18,7 @@ import kotlin.collections.ArrayList
 
 
 /**
- * Created by xuhao on 2017/12/11.
+ * Created by zcq on 2017/12/11.
  * desc: 观看记录
  */
 

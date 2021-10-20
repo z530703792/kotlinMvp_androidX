@@ -31,7 +31,7 @@ import com.hazz.kotlinmvp.view.ViewAnimUtils
 import kotlinx.android.synthetic.main.activity_search.*
 
 /**
- * Created by xuhao on 2017/12/1.
+ * Created by zcq on 2017/12/1.
  * desc:搜索功能
  */
 

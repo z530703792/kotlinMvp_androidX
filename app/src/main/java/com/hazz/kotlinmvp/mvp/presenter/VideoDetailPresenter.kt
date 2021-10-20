@@ -13,7 +13,7 @@ import com.hazz.kotlinmvp.utils.DisplayManager
 import com.hazz.kotlinmvp.utils.NetworkUtil
 
 /**
- * Created by xuhao on 2017/11/25.
+ * Created by zcq on 2017/11/25.
  * desc:
  */
 class VideoDetailPresenter : BasePresenter<VideoDetailContract.View>(), VideoDetailContract.Presenter {

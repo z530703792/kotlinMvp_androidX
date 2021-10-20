@@ -14,7 +14,7 @@ import com.hazz.kotlinmvp.ui.adapter.CategoryDetailAdapter
 import kotlinx.android.synthetic.main.fragment_rank.*
 
 /**
- * Created by xuhao on 2017/11/30.
+ * Created by zcq on 2017/11/30.
  * desc:
  */
 class RankFragment : BaseFragment(), RankContract.View {

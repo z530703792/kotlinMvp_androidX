@@ -7,7 +7,7 @@ import com.hazz.kotlinmvp.rx.scheduler.SchedulerUtils
 import io.reactivex.Observable
 
 /**
- * Created by xuhao on 2017/11/30.
+ * Created by zcq on 2017/11/30.
  * desc: 关注Model
  */
 class FollowModel {

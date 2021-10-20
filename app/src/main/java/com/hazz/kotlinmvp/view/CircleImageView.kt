@@ -11,7 +11,7 @@ import com.hazz.kotlinmvp.R
 
 @Suppress("IMPLICIT_CAST_TO_ANY")
 /**
- * Created by xuhao on 2017/12/4.
+ * Created by zcq on 2017/12/4.
  * desc: 圆角的 ImageView
  */
 

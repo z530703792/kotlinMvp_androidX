@@ -6,7 +6,7 @@ import com.hazz.kotlinmvp.rx.scheduler.SchedulerUtils
 import io.reactivex.Observable
 
 /**
- * Created by xuhao on 2017/11/25.
+ * Created by zcq on 2017/11/25.
  * desc:
  */
 class VideoDetailModel {

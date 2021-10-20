@@ -20,7 +20,7 @@ import kotlinx.android.synthetic.main.activity_category_detail.*
 import kotlinx.android.synthetic.main.activity_profile_homepage.view.*
 
 /**
- * Created by xuhao on 2017/11/30.
+ * Created by zcq on 2017/11/30.
  * desc: 分类详情
  */
 class CategoryDetailActivity : BaseActivity(), CategoryDetailContract.View {

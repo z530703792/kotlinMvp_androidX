@@ -12,7 +12,7 @@ import java.net.URL
 
 
 /**
- * Created by xuhao on 2017/11/13.
+ * Created by zcq on 2017/11/13.
  */
 class NetworkUtil{
 

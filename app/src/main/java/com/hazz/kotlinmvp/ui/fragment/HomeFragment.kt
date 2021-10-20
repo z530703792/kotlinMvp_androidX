@@ -27,7 +27,7 @@ import java.util.*
 
 @Suppress("DEPRECATION")
 /**
- * Created by xuhao on 2017/11/8.
+ * Created by zcq on 2017/11/8.
  * 首页精选
  */
 

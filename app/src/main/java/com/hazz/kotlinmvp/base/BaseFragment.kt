@@ -16,7 +16,7 @@ import pub.devrel.easypermissions.AppSettingsDialog
 import pub.devrel.easypermissions.EasyPermissions
 
 /**
- * @author Xuhao
+ * @author zcq
  * created: 2017/10/25
  * desc:
  */

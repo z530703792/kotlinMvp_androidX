@@ -11,7 +11,7 @@ import android.widget.EditText
 import com.hazz.kotlinmvp.R
 
 /**
- * Created by xuhao on 2017/12/4.
+ * Created by zcq on 2017/12/4.
  * desc:带删除按钮的EditText
  */
 

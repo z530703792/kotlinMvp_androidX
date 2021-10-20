@@ -8,7 +8,7 @@ import com.hazz.kotlinmvp.utils.DisplayManager
 import java.lang.reflect.Field
 
 /**
- * Created by xuhao on 2017/12/7.
+ * Created by zcq on 2017/12/7.
  * desc:
  */
 object TabLayoutHelper{

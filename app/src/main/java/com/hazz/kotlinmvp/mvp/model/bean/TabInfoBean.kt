@@ -1,7 +1,7 @@
 package com.hazz.kotlinmvp.mvp.model.bean
 
 /**
- * Created by xuhao on 2017/11/30.
+ * Created by zcq on 2017/11/30.
  * desc: 热门的 tabInfo
  */
 

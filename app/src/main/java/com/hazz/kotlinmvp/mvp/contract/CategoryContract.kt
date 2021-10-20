@@ -5,7 +5,7 @@ import com.hazz.kotlinmvp.base.IPresenter
 import com.hazz.kotlinmvp.mvp.model.bean.CategoryBean
 
 /**
- * Created by xuhao on 2017/11/29.
+ * Created by zcq on 2017/11/29.
  * desc: 分类 契约类
  */
 interface CategoryContract {

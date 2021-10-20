@@ -11,7 +11,7 @@ import com.hazz.kotlinmvp.view.TabLayoutHelper
 import kotlinx.android.synthetic.main.fragment_hot.*
 
 /**
- * Created by xuhao on 2017/12/7.
+ * Created by zcq on 2017/12/7.
  * desc: 发现(和热门首页同样的布局）
  */
 class DiscoveryFragment : BaseFragment() {

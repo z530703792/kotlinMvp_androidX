@@ -12,7 +12,7 @@ import com.hazz.kotlinmvp.utils.StatusBarUtil
 import kotlinx.android.synthetic.main.activity_about.*
 
 /**
- * Created by xuhao on 2017/12/6.
+ * Created by zcq on 2017/12/6.
  * desc: 关于
  */
 class AboutActivity : BaseActivity() {
@@ -31,7 +31,7 @@ class AboutActivity : BaseActivity() {
         toolbar.setNavigationOnClickListener { finish() }
         //访问 GitHub
         relayout_gitHub.setOnClickListener {
-            val uri = Uri.parse("https://github.com/git-xuhao/KotlinMvp")
+            val uri = Uri.parse("https://github.com/git-zcq/KotlinMvp")
             val intent = Intent(Intent.ACTION_VIEW, uri)
             startActivity(intent)
         }

@@ -21,7 +21,7 @@ import com.hazz.kotlinmvp.view.recyclerview.adapter.CommonAdapter
 import com.orhanobut.logger.Logger
 
 /**
- * Created by xuhao on 2017/12/7.
+ * Created by zcq on 2017/12/7.
  * desc: 关注   水平的 RecyclerViewAdapter
  */
 class FollowHorizontalAdapter(mContext: Context, categoryList: ArrayList<HomeBean.Issue.Item>, layoutId: Int) :

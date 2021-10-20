@@ -17,7 +17,7 @@ import com.hazz.kotlinmvp.view.recyclerview.ViewHolder
 import com.hazz.kotlinmvp.view.recyclerview.adapter.CommonAdapter
 
 /**
- * Created by xuhao on 2017/11/25.
+ * Created by zcq on 2017/11/25.
  * desc: 视频详情
  */
 

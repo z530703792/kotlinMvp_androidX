@@ -3,7 +3,7 @@ package com.hazz.kotlinmvp.view
 import com.shuyu.gsyvideoplayer.listener.StandardVideoAllCallBack
 
 /**
- * Created by xuhao on 2017/11/27.
+ * Created by zcq on 2017/11/27.
  * desc: VideoAllCallBack 回调
  */
 interface VideoListener : StandardVideoAllCallBack {

@@ -1,17 +1,17 @@
 # KotlinMvp
 
-[![](https://jitpack.io/v/git-xuhao/KotlinMvp.svg)](https://jitpack.io/#git-xuhao/KotlinMvp)
-[![Build Status](https://travis-ci.org/git-xuhao/KotlinMvp.svg?branch=master)](https://travis-ci.org/git-xuhao/KotlinMvp)
-[![CircleCI](https://circleci.com/gh/git-xuhao/KotlinMvp/tree/master.svg?style=svg)](https://circleci.com/gh/git-xuhao/KotlinMvp/tree/master)
+[![](https://jitpack.io/v/git-zcq/KotlinMvp.svg)](https://jitpack.io/#git-zcq/KotlinMvp)
+[![Build Status](https://travis-ci.org/git-zcq/KotlinMvp.svg?branch=master)](https://travis-ci.org/git-zcq/KotlinMvp)
+[![CircleCI](https://circleci.com/gh/git-zcq/KotlinMvp/tree/master.svg?style=svg)](https://circleci.com/gh/git-zcq/KotlinMvp/tree/master)
 [![API](https://img.shields.io/badge/API-19%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=19)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0ee634e0cc3042f8a98e33d6135f39a6)](https://www.codacy.com/app/git-xuhao/KotlinMvp?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=git-xuhao/KotlinMvp&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0ee634e0cc3042f8a98e33d6135f39a6)](https://www.codacy.com/app/git-zcq/KotlinMvp?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=git-zcq/KotlinMvp&amp;utm_campaign=Badge_Grade)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![](https://img.shields.io/badge/Author-xuhao-blue.svg)](http://xuhaoblog.com)
-[![](https://img.shields.io/badge/QQ-504105930-orange.svg)](http://xuhaoblog.com)
+[![](https://img.shields.io/badge/Author-zcq-blue.svg)](http://zcqblog.com)
+[![](https://img.shields.io/badge/QQ-504105930-orange.svg)](http://zcqblog.com)
 
 ![这里写图片描述](https://github-1253441343.cos.ap-chengdu.myqcloud.com/ic_launcher.png)
 
-GitHub：[https://github.com/git-xuhao/KotlinMvp](https://github.com/git-xuhao/KotlinMvp)
+GitHub：[https://github.com/git-zcq/KotlinMvp](https://github.com/git-zcq/KotlinMvp)
 
 （Open source is not easy, if you like, I hope to give a Star or Fork, thank you!）
 
@@ -74,7 +74,7 @@ Module Description:
 
 ## Update log
 
-**[Click to view the latest record](https://github.com/git-xuhao/KotlinMvp/releases)**
+**[Click to view the latest record](https://github.com/git-zcq/KotlinMvp/releases)**
 
 **v1.1**
 
@@ -87,7 +87,7 @@ Module Description:
 ## About Me
 
  - Email: igeekho@gmail.com
- - Home: [https://xuhaoblog.com](https://xuhaoblog.com)
+ - Home: [https://zcqblog.com](https://zcqblog.com)
  - CSDN:[http://blog.csdn.net/u011974987](http://blog.csdn.net/u011974987)
  - 简书: [http://www.jianshu.com/u/25bc3e1e7595](http://www.jianshu.com/u/25bc3e1e7595)
 

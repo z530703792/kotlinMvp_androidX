@@ -8,7 +8,7 @@ import com.hazz.kotlinmvp.mvp.model.RankModel
 import com.hazz.kotlinmvp.net.exception.ExceptionHandle
 
 /**
- * Created by xuhao on 2017/11/30.
+ * Created by zcq on 2017/11/30.
  * desc: 获取 TabInfo Presenter
  */
 class FollowPresenter : BasePresenter<FollowContract.View>(), FollowContract.Presenter {

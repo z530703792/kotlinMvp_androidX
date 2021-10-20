@@ -5,7 +5,7 @@ import com.hazz.kotlinmvp.mvp.contract.CategoryDetailContract
 import com.hazz.kotlinmvp.mvp.model.CategoryDetailModel
 
 /**
- * Created by xuhao on 2017/11/30.
+ * Created by zcq on 2017/11/30.
  * desc:
  */
 class CategoryDetailPresenter:BasePresenter<CategoryDetailContract.View>(),CategoryDetailContract.Presenter{

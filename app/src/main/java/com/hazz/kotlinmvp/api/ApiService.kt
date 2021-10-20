@@ -10,7 +10,7 @@ import retrofit2.http.Query
 import retrofit2.http.Url
 
 /**
- * Created by xuhao on 2017/11/16.
+ * Created by zcq on 2017/11/16.
  * Api 接口
  */
 

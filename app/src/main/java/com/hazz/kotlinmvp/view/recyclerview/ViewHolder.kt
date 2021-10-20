@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 @Suppress("UNCHECKED_CAST")
 /**
- * Created by xuhao on 2017/11/22.
+ * Created by zcq on 2017/11/22.
  * desc:
  */
 

@@ -39,7 +39,7 @@ import java.util.*
 
 @SuppressLint("SimpleDateFormat")
 /**
- * Created by xuhao on 2017/11/25.
+ * Created by zcq on 2017/11/25.
  * desc: 视频详情
  */
 class VideoDetailActivity : BaseActivity(), VideoDetailContract.View {

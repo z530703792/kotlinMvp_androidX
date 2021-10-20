@@ -22,7 +22,7 @@ import com.hazz.kotlinmvp.view.recyclerview.adapter.CommonAdapter
 import io.reactivex.Observable
 
 /**
- * Created by xuhao on 2017/11/23.
+ * Created by zcq on 2017/11/23.
  * desc: 首页精选的 Adapter
  */
 

@@ -16,7 +16,7 @@ import com.hazz.kotlinmvp.view.recyclerview.ViewHolder
 import com.hazz.kotlinmvp.view.recyclerview.adapter.CommonAdapter
 
 /**
- * Created by xuhao on 2017/12/7.
+ * Created by zcq on 2017/12/7.
  * desc: 关注 adapter
  */
 class FollowAdapter(context: Context, dataList: ArrayList<HomeBean.Issue.Item>)

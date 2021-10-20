@@ -1,7 +1,7 @@
 package com.hazz.kotlinmvp.rx.scheduler
 
 /**
- * Created by xuhao on 2017/11/17.
+ * Created by zcq on 2017/11/17.
  * desc:
  */
 

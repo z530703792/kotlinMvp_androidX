@@ -16,7 +16,7 @@ import pub.devrel.easypermissions.EasyPermissions
 
 
 /**
- * @author xuhao
+ * @author zcq
  * created: 2017/10/25
  * desc:BaseActivity基类
  */

@@ -9,7 +9,7 @@ import com.hazz.kotlinmvp.view.recyclerview.ViewHolder
 import com.hazz.kotlinmvp.view.recyclerview.adapter.CommonAdapter
 
 /**
- * Created by xuhao on 2017/12/4.
+ * Created by zcq on 2017/12/4.
  * desc: Tag 标签布局的 Adapter
  */
 class HotKeywordsAdapter(mContext: Context,mList: ArrayList<String>, layoutId: Int) :

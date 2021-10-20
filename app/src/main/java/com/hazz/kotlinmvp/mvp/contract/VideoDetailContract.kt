@@ -5,7 +5,7 @@ import com.hazz.kotlinmvp.base.IPresenter
 import com.hazz.kotlinmvp.mvp.model.bean.HomeBean
 
 /**
- * Created by xuhao on 2017/11/25.
+ * Created by zcq on 2017/11/25.
  * desc: 视频详情契约类
  */
 interface VideoDetailContract {

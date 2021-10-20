@@ -18,7 +18,7 @@ package com.hazz.kotlinmvp
 //      ┃┫┫　┃┫┫
 //      ┗┻┛　┗┻┛
 /**
- * Created by xuhao on 2017/11/27.
+ * Created by zcq on 2017/11/27.
  * desc: 常量
  */
 class Constants private constructor() {

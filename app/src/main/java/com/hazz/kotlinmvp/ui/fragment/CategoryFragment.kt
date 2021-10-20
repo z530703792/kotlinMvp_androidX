@@ -18,7 +18,7 @@ import com.hazz.kotlinmvp.utils.DisplayManager
 import kotlinx.android.synthetic.main.fragment_category.*
 
 /**
- * Created by xuhao on 2017/11/8.
+ * Created by zcq on 2017/11/8.
  * 分类
  */
 

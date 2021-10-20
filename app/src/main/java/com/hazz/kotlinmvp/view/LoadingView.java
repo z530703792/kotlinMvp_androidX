@@ -17,7 +17,7 @@ import com.hazz.kotlinmvp.R;
 import java.lang.ref.WeakReference;
 
 /**
- * Created by xuhao on 2017/12/4.
+ * Created by zcq on 2017/12/4.
  * desc:LoadingView 加载动画
  */
 

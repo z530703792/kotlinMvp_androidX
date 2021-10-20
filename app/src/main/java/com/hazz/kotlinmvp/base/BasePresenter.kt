@@ -6,7 +6,7 @@ import io.reactivex.disposables.Disposable
 
 
 /**
- * Created by xuhao on 2017/11/16.
+ * Created by zcq on 2017/11/16.
  *
  */
 open class BasePresenter<T : IBaseView> : IPresenter<T> {

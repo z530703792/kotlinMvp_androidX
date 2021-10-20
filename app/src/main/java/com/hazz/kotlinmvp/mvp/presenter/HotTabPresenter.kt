@@ -6,7 +6,7 @@ import com.hazz.kotlinmvp.mvp.model.HotTabModel
 import com.hazz.kotlinmvp.net.exception.ExceptionHandle
 
 /**
- * Created by xuhao on 2017/11/30.
+ * Created by zcq on 2017/11/30.
  * desc: 获取 TabInfo Presenter
  */
 class HotTabPresenter:BasePresenter<HotTabContract.View>(),HotTabContract.Presenter {

@@ -7,7 +7,7 @@ import com.hazz.kotlinmvp.mvp.model.bean.HomeBean
 import com.hazz.kotlinmvp.net.exception.ExceptionHandle
 
 /**
- * Created by xuhao on 2017/11/8.
+ * Created by zcq on 2017/11/8.
  * 首页精选的 Presenter
  * (数据是 Banner 数据和一页数据组合而成的 HomeBean,查看接口然后在分析就明白了)
  */

@@ -13,7 +13,7 @@ import androidx.annotation.ColorRes
 import androidx.annotation.RequiresApi
 
 /**
- * Created by xuhao on 2017/12/1.
+ * Created by zcq on 2017/12/1.
  * desc: View 动画工具类
  */
 

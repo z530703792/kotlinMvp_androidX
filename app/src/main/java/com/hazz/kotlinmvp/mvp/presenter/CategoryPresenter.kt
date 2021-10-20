@@ -6,7 +6,7 @@ import com.hazz.kotlinmvp.mvp.model.CategoryModel
 import com.hazz.kotlinmvp.net.exception.ExceptionHandle
 
 /**
- * Created by xuhao on 2017/11/29.
+ * Created by zcq on 2017/11/29.
  * desc:分类的 Presenter
  */
 class CategoryPresenter : BasePresenter<CategoryContract.View>(), CategoryContract.Presenter {
